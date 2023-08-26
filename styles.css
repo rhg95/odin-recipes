@@ -1,0 +1,35 @@
+li {
+  background-color: lightcyan;
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+  color: yellowgreen;
+}
+
+h1 {
+  border: medium dashed green;
+  padding: 40px;
+  text-align: center;
+  background-color: aqua;
+  color: blueviolet;
+}
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

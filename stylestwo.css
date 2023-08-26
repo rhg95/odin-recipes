@@ -1,0 +1,41 @@
+ul {
+  display: flex;
+  border:10px solid green;
+  flex-shrink:1;
+    flex-grow:1;
+gap:2rem;
+background-color:aqua;
+
+flex-flow:row wrap;
+flex-direction:column;
+
+  
+}
+ul li
+{
+ 
+    border:2px solid rebeccapurple;
+    padding:10px;
+    flex align: center;
+    margin:10px;
+    background-color: green;
+}
+.listone{
+    font-size:30px;
+    background-color:blueviolet;
+}
+.listtwo{
+    background-color:brown;
+    font-size:30px;
+}
+
+.listthree{
+    font-size:30px;
+}
+h1{
+    display:flex;
+    border:2px solid red;  
+    text-align:center; 
+    background-color: orange;
+    justify-content: center;
+}
